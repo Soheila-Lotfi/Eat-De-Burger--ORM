@@ -9,7 +9,7 @@ var app = express();
 // PORT
 var PORT = process.env.PORT || 8080;
 
-// serve the static content for the app drom the public folder
+// serve the static content for the app from the public folder
 
 app.use(express.static("public"));
 
