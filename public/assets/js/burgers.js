@@ -28,12 +28,14 @@ $(function() {
       location.reload();
     });
   });
-});
+  $("#delete_it").on("click", function(event) {
+    event.preventDefault();
+    var id = $(this).data("id");
 
-// $(function() {
-//   $.ajax("/", {
-//     type: "GET"
-//   }).then(function() {
-//     console.log("hi");
-//   });
-// });
+    $.ajax("/api/burgers/" + id, {
+      type: "DELETE"
+    }).then(function() {
+      location.reload();
+    });
+  });
+});
