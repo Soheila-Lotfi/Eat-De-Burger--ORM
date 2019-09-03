@@ -23,10 +23,10 @@ router.post("/api/burgers", function(req, res) {
   );
 });
 
-router.put("/api/cats/:id", function(req, res) {
-  var condition = "id = " + req.params.id;
+// router.put("/api/cats/:id", function(req, res) {
+//   var condition = "id = " + req.params.id;
 
-  console.log("condition", condition);
+//   console.log("condition", condition);
 
 //   cat.update(
 //     {
