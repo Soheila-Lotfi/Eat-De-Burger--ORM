@@ -1,15 +1,17 @@
-$("#submit").on("click", function(event) {
-  event.preventDefault();
+$(function() {
+  $("#burger_form").on("submit", function(event) {
+    event.preventDefault();
 
-  newData = {
-    burger_name: $("#favorite_burger")
-      .val()
-      .trim(),
-    devoured: false
-  };
+    newData = {
+      burger_name: $("#favorite_burger")
+        .val()
+        .trim()
+    };
 
-  $.post("/api/burgers", newData).then(function() {
-    location.reload();
+    console.log(newData);
+    $.post("/api/burgers", newData).then(function() {
+      location.reload();
+    });
   });
 });
 
