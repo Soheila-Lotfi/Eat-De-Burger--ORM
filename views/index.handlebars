@@ -8,8 +8,9 @@
             <p> {{id}}. {{burger_name}}</p>
             <button data-id="{{id}}">Devoure it!</button>
         </li>
-        {{/each}}
+
         {{/unless}}
+        {{/each}}
 
     </ul>
 
@@ -22,17 +23,18 @@
         {{#if devoured}}
         <li>
             <p> {{id}}. {{burger_name}}</p>
-            <button data-id="{{id}}">Devoure it!</button>
+
         </li>
-        {{/each}}
+
         {{/if}}
+        {{/each}}
 
     </ul>
 </div>
 
 <form>
     <input type="text" id="favorite_burger">
-    <button type="submit" id="submit"></button>
+    <button type="submit" id="submit">submit</button>
     <p>Enter a burger you want to eat click the "submit" button</p>
 
 </form>

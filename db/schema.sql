@@ -12,5 +12,4 @@ burger_name VARCHAR (30) NOT NULL,
 DEVOURED BOOLEAN DEFAULT false,
 PRIMARY KEY(id)
 
-
 )
