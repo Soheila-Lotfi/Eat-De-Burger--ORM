@@ -13,15 +13,30 @@ img {
   display: inline-block;
   margin-left: 27%;
   margin-top: 1%;
-  width: 20%;
+  width: 30%;
+}
+
+#text {
+  background-color: white;
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  margin-bottom: 2%;
+  padding: 5px;
+}
+
+#buttons {
+  display: inline-block;
+  width: 100px;
+}
+#devoure_it {
+  display: inline;
 }
 
 #devouredBurger {
   display: inline-block;
 
-  margin-left: 17%;
   margin-top: 1%;
-  width: 20%;
 }
 
 #burger_form {

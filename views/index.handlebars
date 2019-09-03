@@ -1,38 +1,48 @@
 <img src="../assets/img/burgerimage.jpg">
 
 <div id="burgerYouWant">
-    <ul>
 
-        {{#each burgers }}
 
-        {{#unless devoured}}
-        <li>
-            <p> {{id}}. {{burger_name}}</p>
-            <button data-id="{{id}}" id="devoure_it">Devoure it!</button>
-        </li>
+    {{#each burgers }}
 
-        {{/unless}}
-        {{/each}}
+    {{#unless devoured}}
+    <section id="text">
+        <p> {{id}}. {{burger_name}}</p>
+    </section>
+    <section id="buttons">
+        <button data-id="{{id}}" id="devoure_it">Devoure it!</button>
+    </section>
 
-    </ul>
+
+
+
+
+    {{/unless}}
+    {{/each}}
+
+
 
 </div>
 
 <div id="devouredBurger">
-    <ul>
-        {{#each burgers }}
 
-        {{#if devoured}}
-        <li>
-            <p> {{id}}. {{burger_name}}</p>
-            <button data-id="{{id}}" id="delete_it">Delete it</button>
+    {{#each burgers }}
 
-        </li>
+    {{#if devoured}}
+    <section id="text">
+        <p> {{id}}. {{burger_name}}</p>
+    </section>
+    <section id="buttons">
+        <button data-id="{{id}}" id="delete_it">Delete it</button>
+    </section>
 
-        {{/if}}
-        {{/each}}
 
-    </ul>
+
+
+    {{/if}}
+    {{/each}}
+
+
 </div>
 
 <form id="burger_form">
