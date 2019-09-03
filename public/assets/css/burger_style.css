@@ -1,0 +1,33 @@
+#burgerYouWant {
+  display: inline-block;
+  margin-left: 27%;
+  margin-top: 1%;
+  width: 20%;
+}
+
+#devouredBurger {
+  display: inline-block;
+
+  margin-left: 17%;
+  margin-top: 1%;
+  width: 20%;
+}
+#burger_form input {
+  margin-left: 7%;
+}
+#burger_form {
+  margin-left: 37%;
+  margin-top: 1%;
+}
+
+body {
+  /* background-image: url("../img/burgerimage.jpg"); */
+  background-color: #ffcc00;
+}
+
+img {
+  width: 250px;
+  height: 165px;
+  display: block;
+  margin-left: 40%;
+}
