@@ -17,7 +17,6 @@ $(function() {
   $("#devoure_it").on("click", function(event) {
     event.preventDefault();
     var id = $(this).data("id");
-    console.log("hi");
 
     newData = {
       devoured: true
