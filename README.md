@@ -162,9 +162,14 @@ All the recommended files and directories from the steps above should look like 
 
 ### Hosting on Heroku
 
-I used Heroku for hosting. Please note that while **Heroku is free**, it will request credit card information if 
-you have more than 5 applications at a time or are adding a database.
+I used Heroku for hosting.
 
 
 - - -
+
+![image](https://user-images.githubusercontent.com/49765334/64212619-f21e1a80-ce77-11e9-836a-f2927fa5e8a7.png)
+
+
+![image](https://user-images.githubusercontent.com/49765334/64212636-04985400-ce78-11e9-8829-9048d8a7f95a.png)
+
 
