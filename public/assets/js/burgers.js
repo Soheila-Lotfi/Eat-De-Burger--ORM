@@ -19,11 +19,11 @@ $(function() {
     });
   });
 
-  $("#devoure_it").on("click", function(event) {
+  $(".devoure_it").on("click", function(event) {
     // Make sure to preventDefault on a submit event.
     event.preventDefault();
     var id = $(this).data("id");
-
+    console.log($(this));
     newData = {
       devoured: true
     };
@@ -35,7 +35,7 @@ $(function() {
       location.reload();
     });
   });
-  $("#delete_it").on("click", function(event) {
+  $(".delete_it").on("click", function(event) {
     event.preventDefault();
     var id = $(this).data("id");
 

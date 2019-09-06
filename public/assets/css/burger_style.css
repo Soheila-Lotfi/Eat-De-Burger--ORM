@@ -18,7 +18,7 @@ img {
 
 #text {
   background-color: white;
-  display: inline-block;
+  display: block;
   width: 200px;
   height: 40px;
   margin-bottom: 2%;
